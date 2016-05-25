@@ -30,7 +30,8 @@ const Dots = function () {
 
 export default class Pager extends Component {
   static defaultProps = {
-    limit: Infinity
+    limit: Infinity,
+    curpage: 1
   }
   static propTypes = {
     curpage: PropTypes.number.isRequired,
@@ -42,7 +43,7 @@ export default class Pager extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      curpage: props.curpage || 1
+      curpage: props.curpage
     }
   }
   componentWillReceiveProps(props) {

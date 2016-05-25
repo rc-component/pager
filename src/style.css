@@ -1,0 +1,64 @@
+.pager {
+  margin-top: 10px;
+  padding: 0;
+  font-size: 14px;
+  display: block;
+  user-select: none;
+}
+
+.pager li+li{
+  margin-left: 3px;
+}
+
+.pager li {
+  display: inline-block;
+  border-radius: 3px;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 20px;
+}
+.pager li a {
+  text-decoration: none;
+  padding: 2px 8px;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: #444;
+  display: block;
+  transition: background-color 0.2s linear;
+}
+
+.pager li:hover {
+  background-color: #eee;
+}
+
+.pager li.active a {
+  font-weight: bold;
+}
+
+.pager li.side {
+  padding: 0px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  font-weight: bolder;
+}
+
+.pager li.side:active {
+  outline: none;
+  box-shadow: inset 0px 1px 3px #ccc;
+}
+.pager li:active a{
+  margin-top: 1px;
+}
+
+.pager li.side.hide {
+  cursor: not-allowed;
+}
+.pager li.side.hide a {
+  color: #ccc;
+  pointer-events: none;
+}
+
+li.dots {
+}

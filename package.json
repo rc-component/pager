@@ -1,12 +1,14 @@
 {
   "name": "rc-page",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pager for react",
   "repository": {
     "type": "git",
     "url": "https://github.com/rc-component/pager.git"
   },
-  "keywords": ["react-pager"],
+  "keywords": [
+    "react-pager"
+  ],
   "license": "MIT",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",

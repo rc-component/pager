@@ -1,11 +1,12 @@
 {
-  "name": "pager",
+  "name": "rc-page",
   "version": "0.0.1",
-  "description": "Overlay Component",
+  "description": "pager for react",
   "repository": {
     "type": "git",
     "url": "https://github.com/rc-component/pager.git"
   },
+  "keywords": ["react-pager"],
   "license": "MIT",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",

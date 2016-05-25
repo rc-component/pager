@@ -1,10 +1,14 @@
 # Pager
 
-pager Component for [react](https://facebook.github.io/react/).
+Pager component for [react](https://facebook.github.io/react/).
 
 Build with [webpack](https://webpack.github.io/) and [CSS Modules](https://github.com/css-modules/css-modules)
 
 [Story book](https://rc-component.github.io/pager/)
+
+## Install
+
+    npm i rc-page
 
 ## Usage
 

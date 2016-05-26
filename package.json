@@ -1,13 +1,14 @@
 {
   "name": "rc-page",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "pager for react",
   "repository": {
     "type": "git",
     "url": "https://github.com/rc-component/pager.git"
   },
   "keywords": [
-    "react-pager"
+    "react-component",
+    "pager"
   ],
   "license": "MIT",
   "scripts": {

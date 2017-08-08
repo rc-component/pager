@@ -1,6 +1,7 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component} from 'react'
 import style from './style.css'
 import cx from 'classnames'
+import PropTypes from 'prop-types'
 
 const SideLink = function (props) {
   let clz = cx(style.side, {
@@ -69,6 +70,9 @@ export default class Pager extends Component {
     let res = []
     let curpage = this.state.curpage
     let limit = this.props.limit
+    if (curpage > limit - 2 && curpage < count -1) {
+      limit = curpage + 2
+    }
     for (let i = 1; i <= count; i++) {
       let active = curpage == i
       if (i === limit - 1) {
